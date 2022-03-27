@@ -7,7 +7,7 @@ const app = express();
 const mongoose = require('mongoose');
 const expressLayouts = require("express-ejs-layouts");
 const dotenv = require('dotenv');
-dotenv.config(options{path:'./.env'})
+dotenv.config({ path:'./.env'})
 const indexRouter = require('./routes/index');
 const { options } = require('./routes/index');
 
